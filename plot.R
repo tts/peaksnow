@@ -33,5 +33,4 @@ all_data %>%
   xlab("\nDate") + theme(legend.position="none", axis.title.y = element_blank()
 )
 
-# Note, dpi should be bigger
-ggsave("rain.png", width = 10, height = 12, dpi = 70, units = "cm", device = 'png')
+ggsave("rain.png", width = 10, height = 12, dpi = 300, units = "cm", device = 'png')
